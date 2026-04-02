@@ -1,6 +1,6 @@
 # BigBank Demo assessment
 
-A technical assessment for the Quality Engineer position: https://jobs.bigbank.eu/open-positions/quality-engineer-2/ .
+A technical assessment for the [Quality Engineer position](https://jobs.bigbank.eu/open-positions/quality-engineer-2/).
 
 ## The project 💻.
 
@@ -74,6 +74,6 @@ If you want to open the report after the tests have been executed, you can execu
 ```
 ## CI/CD 🔄.
 
-The CI/CD pipeline is configured using GitHub Actions. The pipeline is triggered when a push or pull request is made to the main or master branch. The pipeline will execute the tests and generates a report. The report is uploaded as an artifact.
+The CI/CD pipeline is configured using **GitHub Actions**. The pipeline is triggered when a push or pull request is made to the main or master branch. The pipeline will execute the tests and generates a report. The report is uploaded as an artifact.
 
 This step can be found in the `.github/workflows/playwright.yml` file.

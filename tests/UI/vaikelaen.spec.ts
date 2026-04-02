@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { VaikelaenPage } from '../../page-objects/VaikelaenPage';
 import { HeaderComponent } from '../../page-objects/shared/components/HeaderComponent';
-import { vaikelaenData } from '../data/UI/VaikelaenData';
+import { vaikelaenData } from '../data/UI/vaikelaenData';
 
 let vaikelaenPage: VaikelaenPage;
 let headerComponent: HeaderComponent;
