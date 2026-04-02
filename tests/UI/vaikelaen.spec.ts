@@ -10,7 +10,7 @@ test.beforeEach(async ({ page }) => {
     page.on('console', msg => console.log('Console log:', msg.text()));
 
     await test.step('STEP 0: Open the Väikelaen page', async () => {
-        await page.goto('/?amount=500&period=60&productName=SMALL_LOAN&...&lang=ee');
+        await page.goto('/?amount=5000&period=60&productName=SMALL_LOAN&...&lang=ee');
     });
 });
 

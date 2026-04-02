@@ -53,7 +53,7 @@ test.describe('Väikelaen «calculate» API endpoint', () => {
         });
     }
 
-    test('POST /calculate - should return validation error when conclusionFee is missing', async ({ request }) => {
+    test('POST «calculate»: Should return validation error when `conclusionFee` is missing', async ({ request }) => {
         let payloadRequest: any, payloadResponse: any, responseBody: any;
 
         await test.step('STEP 1: Preparing payload request', async () => {

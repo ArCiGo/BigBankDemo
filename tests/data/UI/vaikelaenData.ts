@@ -1,8 +1,7 @@
 export const vaikelaenData = {
     url: 'https://taotlus.bigbank.ee/?amount=5000&period=60&productName=SMALL_LOAN&loanPurpose=DAILY_SETTLEMENTS',
     initial: {
-        // headerLaenusumma: '5000 €',
-        headerLaenusumma: '500 €',
+        headerLaenusumma: '5000 €',
     },
     update: {
         laenusumma: '4546.45',

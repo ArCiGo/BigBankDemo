@@ -2,6 +2,8 @@
 
 A technical assessment for the [Quality Engineer position](https://jobs.bigbank.eu/open-positions/quality-engineer-2/).
 
+Review [here](./docs/TestPlan.md) the test plan.
+
 ## The project 💻.
 
 The following project was made using TS + Playwright. Review [here](./docs/Quality%20Engineer%20exercise.pdf) the assessment proposed.
