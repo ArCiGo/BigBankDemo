@@ -1,0 +1,20 @@
+{
+  "name": "bigbankdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/",
+    "test:open:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "playwright-schema-validator": "^1.0.0"
+  }
+}
