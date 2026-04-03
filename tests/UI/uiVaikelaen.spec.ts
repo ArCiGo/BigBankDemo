@@ -6,7 +6,6 @@ import { vaikelaenData } from '../data/UI/vaikelaenData';
 let vaikelaenPage: VaikelaenPage;
 let headerComponent: HeaderComponent;
 
-// Only global setup lives here — no navigation, so each test controls its own URL
 test.beforeEach(async ({ page }) => {
     page.on('console', msg => console.log('Console log:', msg.text()));
 });
