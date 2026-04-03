@@ -30,7 +30,7 @@ The following project was made using TS + Playwright. Review [here](./docs/Quali
 │   ├── API/
 │   │   ├── helpers/
 │   │   │   └── APIHelpers.ts
-│   │   └── vaikelaen.spec.ts
+│   │   └── apiVaikelaen.spec.ts
 │   ├── data/
 │   │   ├── API/
 │   │   │   ├── schemas/
@@ -40,7 +40,7 @@ The following project was made using TS + Playwright. Review [here](./docs/Quali
 │   │   └── UI/
 │   │       └── vaikelaenData.ts
 │   └── UI/
-│       └── vaikelaen.spec.ts
+│       └── uiVaikelaen.spec.ts
 ├── package-lock.json
 ├── package.json
 └── playwright.config.ts

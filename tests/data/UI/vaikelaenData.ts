@@ -1,19 +1,26 @@
 export const vaikelaenData = {
+    urlParams: {
+        amount: '9434.34',
+        period: '60',
+        // The modal renders the amount with a thousands separator
+        modalLaenusumma: '9,434.34',
+        modalPeriood: '60',
+    },
     url: 'https://taotlus.bigbank.ee/?amount=5000&period=60&productName=SMALL_LOAN&loanPurpose=DAILY_SETTLEMENTS',
     initial: {
         headerLaenusumma: '5000 €',
     },
     update: {
-        laenusumma: '4546.45',
-        periood: '40',
-        headerLaenusumma: '4546.45 €',
-        modalLaenusumma: '4,546.45',
-        modalPeriood: '40',
+        laenusumma: '19610.56',
+        periood: '30',
+        headerLaenusumma: '19610.56 €',
+        modalLaenusumma: '19,610.56',
+        modalPeriood: '30',
     },
     slider: {
-        laenusumma: 15000,
-        periood: 84,
-        headerLaenusumma: '15000 €',
+        laenusumma: 20010,
+        periood: 45,
+        headerLaenusumma: '20,010 €',
     },
     clamping: {
         min: {
